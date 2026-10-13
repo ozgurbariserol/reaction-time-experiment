@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Experiment output and stimulus images are never committed
+data/*
+!data/.gitkeep
+stimuli/*
+!stimuli/README.md
